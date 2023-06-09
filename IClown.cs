@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace working_with_interface
 {
-    internal interface IClown
+    interface IClown
     {
         string FunnyThingsIHave{ get; }
         void Honk();

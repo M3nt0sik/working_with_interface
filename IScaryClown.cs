@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace working_with_interface
 {
-    internal interface IScaryClown:IClown
+    interface IScaryClown:IClown
     {
         String ScaryThinkIHave { get; }
         void ScareLittleChildren();
